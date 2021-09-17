@@ -1,0 +1,107 @@
+
+* {
+    padding: 0;
+    margin: 0;
+  }
+  
+  body {
+    width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    background-color:#fcd3af;
+    font-family: sans-serif;
+  }
+  
+  button:hover {
+    cursor: pointer;
+    background-color:lightblue;
+  }
+  
+  ul {
+    list-style-type: none; 
+  }
+  
+
+
+  .container {
+    min-width: 700px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  h1 {
+    font-size: 3rem;
+  }
+  
+  
+  .todo-form {
+    margin: 40px 0px;
+  }
+  
+  .todo-input {
+    width: 220px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    padding: 10px;
+    margin-right: 10px;
+    font-size: 1rem;
+  }
+  
+  .add-button {
+    background-color: #0000ff;
+    color: #fff;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    padding: 7px;
+    font-size: 1.2rem;
+  }
+  
+  
+  .todo-items {
+    min-width: 350px;
+  }
+  
+  /* Cada item da lista com a  class="item" */
+  .item {
+    background-color: #fff;
+    padding: 10px;
+    font-size: 1.1rem;
+  }
+  
+  .item:first-child {
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+  }
+  
+  .item:last-child {
+    border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 7px;
+  }
+  
+  
+  .checkbox {
+    margin-right: 10px;
+  }
+  
+  .delete-button {
+    float: right;
+    background-color:#fff;
+    border :1px solid #AC7340;
+    outline: none;
+    border-radius:50%;
+    padding: 2px 5px;
+    margin-left: 10px;
+    font-size: 1.1rem;
+    font-weight: 550;
+  }
+  
+  /* Quando o Todo for marcado irá adicionar a linha sobre o texto */
+  .checked { 
+    text-decoration: line-through;
+  }
+  
