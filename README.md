@@ -5,13 +5,13 @@
 
 ### Features
 
-- [x] Adicionar atividade 
-- [x] Remover atividade
-- [x] Marcar atividade como feita
+- [x] Adicionar atividade.
+- [x] Remover atividade.
+- [x] Marcar atividade como feita.
 
 ### Pré-requisitos
 
-Basta ter em seu computador um navegador qualquer.
+Basta ter acesso a internet e acesso a um navegador que suporte as tecnologias mencionadas.
 
 ### 🛠 Tecnologias
 
