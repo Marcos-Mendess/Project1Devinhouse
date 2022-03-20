@@ -21,6 +21,17 @@ As seguintes ferramentas foram usadas na construção do projeto:
 - [CSS](https://developer.mozilla.org/pt-BR/docs/Web/CSS)
 - [JavaScript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
 
+<h2>ℹ️ Como utilizar</h2>
+
+    Clone esse repositório
+    $ git clone  https://github.com/Marcos-Mendess/Project1Devinhouse.git
+
+    Instalar dependências
+    $ npm install
+
+    Inicie o projeto
+    $ npm start
+
 Feito com carinho por Marcos Vinícius 👋🏽!
 
 
